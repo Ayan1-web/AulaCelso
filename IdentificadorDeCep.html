@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViaCEP Webservice</title>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="IdentificadorDeCep.css">
+    <script src="IdentificadorDeCep.js" defer></script>
+</head>
+<body>
+    <form method="get" action="#">
+        <label>CEP:
+            <input name="cep" type="text" id="cep" value="" maxlength="9" placeholder="00000-000" />
+        </label>
+        
+        <label>Rua:
+            <input name="rua" type="text" id="rua" readonly />
+        </label>
+        
+        <label>Bairro:
+            <input name="bairro" type="text" id="bairro" readonly />
+        </label>
+        
+        <label>Cidade:
+            <input name="cidade" type="text" id="cidade" readonly />
+        </label>
+        
+        <label>Estado:
+            <input name="uf" type="text" id="uf" readonly />
+        </label>
+        
+        <label>IBGE:
+            <input name="ibge" type="text" id="ibge" readonly />
+        </label>
+    </form>
+</body>
+</html>
